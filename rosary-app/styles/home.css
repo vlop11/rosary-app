@@ -1,0 +1,79 @@
+body {
+  height: 100%
+  width: 100%;
+  margin: 0;
+}
+.header {
+  text-align: center;
+  font-family: helvetica;
+  height: 10vh;
+  width: 100vw;
+  background-color: lightgrey;
+  border-bottom-style: solid;
+  border-width: thin;
+}
+h1 {
+  font-weight: lighter;
+  margin: inherit;
+  padding: 20px 0 20px 0;
+}
+#next {
+  width: 80px;
+  margin: auto;
+  padding: 20px 0px;
+}
+button {
+  font-family: helvetica;
+  /* font-weight: lighter; */
+  font-size: 11pt;
+  border-radius: 10px;
+  padding: 8px 7px;
+  background-color: #d1adad;
+  outline: none;
+}
+button:hover {
+  background-color: maroon;
+  color: white;
+}
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+} */
+.mystery {
+  background-color: #d1adad;
+  height: 18vh;
+  width: 100vw;
+  border-top-style: solid;
+  border-color: black;
+  border-width: thin;
+}
+h4 {
+  margin: 20px 0px 20px 20px;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 14pt;
+}
+.beads {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: middle;
+}
+.bead {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%
+}
+.line {
+  border-bottom-style: dashed;
+  border-color: black;
+  width: 80px;
+  height: 0;
+  margin: 0;
+  padding-bottom: 17px;
+}
+.clicked {
+  background-color: black;
+}
